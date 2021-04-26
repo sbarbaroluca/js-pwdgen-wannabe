@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #F5F8FA;
+}
+
+.container__h1 {
+  color: #E50914;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.container__pass {
+  color: #E50914;
+  font-size: 24px;
+}
+
+
+.dati {
+  padding: 30px;
+  margin-top: 30px;
+  border-radius: 10px;
+  background-color: #E50914;
+  color: #F5F8FA;
+}
