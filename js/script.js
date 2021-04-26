@@ -8,3 +8,13 @@ var cognomeUtente = prompt('Qual è il tuo cognome?');
 var colorePreferito = prompt('Qual è il tuo colore preferito?');
 
 var password = nomeUtente + cognomeUtente + colorePreferito + "21";
+
+// password
+document.getElementById("password-generata").innerHTML = password;
+
+// dati di input raccolti
+document.getElementById('nome-utente').innerHTML = nomeUtente;
+
+document.getElementById('cognome-utente').innerHTML = cognomeUtente;
+
+document.getElementById('colore-preferito').innerHTML = colorePreferito;
